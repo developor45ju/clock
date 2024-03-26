@@ -22,4 +22,4 @@ const clock = () => {
 
 clock();
 
-setTimeout(() => clock(), 1000);
+setTimeout(clock, 1000);
