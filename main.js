@@ -15,9 +15,9 @@ const clock = () => {
     const minute = minutes * 6;
     const second = seconds * 6;
     
-    secondsDom.style.transform = `rotateZ(${second}deg)`;
-    minutesDom.style.transform = `rotateZ(${minute}deg)`;
-    hoursDom.style.transform = `rotateZ(${hour}deg)`;
+    secondsDom.style.transform = `rotate(${second}deg)`;
+    minutesDom.style.transform = `rotate(${minute}deg)`;
+    hoursDom.style.transform = `rotate(${hour}deg)`;
 }
 
 clock();
